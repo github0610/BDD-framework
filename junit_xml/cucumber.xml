@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="59.62336">
+<testcase classname="Order submission Feature" name="Verify Order submission with different payment provider" time="59.62336">
+<system-out><![CDATA[When User is on Item details page...........................................passed
+Then Click on Add to cart button............................................passed
+When user click on View cart button.........................................passed
+Then user should be on View cart page.......................................passed
+When Click on Proceed to checkout button....................................passed
+Then User should be on shipping Billing page................................passed
+Then Enter shipping address is as follows...................................passed
+When Click on Calculate shipping button and select shipper then Click on Payment button.passed
+Then select My Shipping Address is also my Billing Address radio buton......passed
+Then select payment provider and click on Review and Submit order button....passed
+When click on Submit order button...........................................passed
+Then User should be navigate to order submission page.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
